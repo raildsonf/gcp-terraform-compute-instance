@@ -1,0 +1,2 @@
+1 - go to iam, create a service account with compute engin ee admin permissions
+2 - inside the SA, create a key, download and rename creds.json
