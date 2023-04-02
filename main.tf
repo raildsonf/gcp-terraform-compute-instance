@@ -8,7 +8,7 @@ data "google_compute_image" "centos_image" {
 }
 
 resource "google_compute_instance" "web" {
-  name = "web-1"
+  name = "web-1x"
   machine_type = "n1-standard-1"
 
   boot_disk {
