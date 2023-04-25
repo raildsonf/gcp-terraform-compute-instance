@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   # Configuration options
-  project = "gcp-devops-380300"
+  project = "$PROJECT_HERE"
   region = "us-central1"
   zone = "us-central1-a"
   credentials = "creds.json"
